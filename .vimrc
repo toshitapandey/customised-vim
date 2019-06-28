@@ -8,7 +8,7 @@ set number
 set relativenumber
 
 " map <-> so that it should delete the line that the cursor is on and paste it on the next line
-map - ddp
+noremap - ddp
 
 " map <_> so that it should delete the line that the cursor is on and paste it on the previous line
-map _ ddkP
+noremap _ ddkP
